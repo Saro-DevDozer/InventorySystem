@@ -1,0 +1,13 @@
+**/bin
+**/obj
+**/.vs
+**/.git
+**/.gitignore
+**/node_modules
+**/dist
+**/out
+**/*.mdf
+**/*.ldf
+**/*.log
+Dockerfile*
+docker-compose*.yml

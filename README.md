@@ -97,6 +97,26 @@ The application uses the Code First approach of Entity Framework Core.
 
     The Angular app will be available at `http://localhost:4200`.
 
+### Docker
+
+A Docker setup is included for the backend API, Angular frontend, and SQL Server.
+
+1. **Build and start all containers**
+
+    ```sh
+    docker-compose up --build
+    ```
+
+2. **Access the services**
+
+    - Frontend: `http://localhost:4200`
+    - Backend API: `http://localhost:5000`
+    - SQL Server: `localhost,1433`
+
+3. **Use the backend directly**
+
+    The frontend proxies API requests to the backend at `/api`.
+
 ## Login
 
 LOGIN WITH USERNAME OR EMAIL ADDRESS
